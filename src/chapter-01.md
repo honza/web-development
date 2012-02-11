@@ -1,25 +1,8 @@
-How the Internet works
-======================
+Introduction
+============
 
-Ribeye turducken turkey, filet mignon meatball venison tail. Jerky strip steak
-tenderloin meatball salami tri-tip. Boudin short loin shankle flank, pancetta
-ball tip prosciutto tongue pastrami chuck sausage tri-tip bacon venison
-fatback. Leberkase prosciutto ham brisket tenderloin strip steak, shankle pork
-loin ribeye chicken pork belly salami tri-tip bacon. Fatback pork loin shank
-strip steak salami, jowl biltong t-bone. Andouille jowl short ribs, pig
-turducken bresaola sirloin meatball leberkase drumstick tail sausage ball tip.
+Here is a quote by Kaitlyn Trigger:
 
-Subsection
-----------
-
-Ribeye turducken turkey, filet mignon meatball venison tail. Jerky strip steak
-tenderloin meatball salami tri-tip. Boudin short loin shankle flank, pancetta
-ball tip prosciutto tongue pastrami chuck sausage tri-tip bacon venison
-fatback. 
-
-
-### Sub sub section
-
-Leberkase prosciutto ham brisket tenderloin strip steak, shankle pork
-loin ribeye chicken pork belly salami tri-tip bacon. Fatback pork loin shank
-strip steak salami, jowl biltong t-bone. Andouille jowl short ribs, pig
+> Learning to program isn't the hard part.  The biggest challenge is figuring
+> out how all the moving parts of a web application fit together.  There's no
+> book for that.
