@@ -1,4 +1,4 @@
-\documentclass$if(fontsize)$[$fontsize$]$endif${book}
+\documentclass$if(fontsize)$[$fontsize$]$endif${article}
 \usepackage{fontspec}
 \setmainfont [Ligatures={Common,TeX}, Numbers={OldStyle}]{Baskerville}
 
@@ -10,14 +10,17 @@ $if(title)$
     \title{$title$}
 $endif$
 
-$if(date)$
-    \date{$date$}
+\date{}
+
+$if(author)$
+\author{$author$}
 $endif$
 
 \begin{document}
 
 $if(title)$
     \maketitle
+    \clearpage
 $endif$
 
 $for(include-before)$
@@ -26,7 +29,9 @@ $endfor$
 
 $if(toc)$
     \tableofcontents
+    \clearpage
 $endif$
+
 
 $body$
 
