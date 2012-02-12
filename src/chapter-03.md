@@ -26,3 +26,15 @@ A database is responsible for storing your website's data.  It can store
 anything from the content of a blog post, to user login credentials or credit
 card information.  Relational databases such as MySQL and PostgreSQL are very
 popular.
+
+In addition to a webserver and a database, a server will have many other
+applications to be able to support your website.  For example, your website
+might have to send an email to users who have just signed up so your server
+will need an application that can send emails.  Or you might want to do
+something really specific such as transcoding video or resizing images.
+
+Lastly, you will need to upload your website's files to the server.  We usually
+say that our website needs to be *deployed* to the server.  Every website is
+different but deployment usually involves uploading files and restarting some
+of the services running on the server.  We will talk about how to get your
+files to the server later.
