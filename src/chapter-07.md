@@ -7,7 +7,7 @@ rsync.
 FTP
 ---
 
-Ftp stands for *File Transfer Protocol* and it's in the same category as HTTP.
+FTP stands for *File Transfer Protocol* and it's in the same category as HTTP.
 Usually, you would use an FTP client like Filezilla to transfer your files over
 to your server.  The client gives you an interface for selecting which files
 you would like to upload and what files are already present on the server.  If
