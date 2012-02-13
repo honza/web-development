@@ -17,5 +17,3 @@ display.  The server can run a simple program that you write to determine what
 kind of content it should display.  Based on the URL that is being requested it
 can look in the filesystem or in a database or some kind for the right data and
 then send it back to the browser.
-
-

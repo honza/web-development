@@ -18,14 +18,13 @@ all:
 
 latex:
 	mkdir -p $(LATEX_BUILD)
-	# pandoc -sS --toc --variable=fontsize:12pt --template=templates/latex.tex -o $(LATEX_BUILD)/webdev.tex --chapters
 	pandoc -sS --toc --variable=fontsize:12pt --template=templates/latex.tex -o $(LATEX_BUILD)/webdev.tex templates/title.txt \
 		$(ARGS)
 	xelatex $(LATEX_BUILD)/webdev.tex
 
 web:
 	mkdir -p $(WEB_BUILD)
-	pandoc -sS --toc --css=style.css -o $(WEB_BUILD)/webdev.html --chapters \
+	pandoc -sS --toc --css=style.css -o $(WEB_BUILD)/webdev.html --chapters templates/title.txt \
 		$(ARGS)
 	cp templates/style.css $(WEB_BUILD)/style.css
 
