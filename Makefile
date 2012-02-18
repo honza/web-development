@@ -5,14 +5,12 @@ WEB_BUILD = $(BUILD_DIR)/web
 LATEX_BUILD = $(BUILD_DIR)/latex
 EPUB_BUILD = $(BUILD_DIR)/epub
 
-ARGS = $(SRC_DIR)/chapter-01.md \
-	$(SRC_DIR)/chapter-02.md \
-	$(SRC_DIR)/chapter-03.md \
-	$(SRC_DIR)/chapter-04.md \
-	$(SRC_DIR)/chapter-05.md \
-	$(SRC_DIR)/chapter-06.md \
-	$(SRC_DIR)/chapter-07.md \
-	$(SRC_DIR)/chapter-08.md
+ARGS = $(SRC_DIR)/chapter-01-internet.md \
+	$(SRC_DIR)/chapter-02-html.md \
+	$(SRC_DIR)/chapter-03-css.md \
+	$(SRC_DIR)/chapter-04-javascript.md \
+	$(SRC_DIR)/chapter-05-servers.md \
+	$(SRC_DIR)/chapter-06-deployment.md
 
 all:
 	# Make options: latex, web, epub, clean
