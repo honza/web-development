@@ -11,7 +11,8 @@ ARGS = $(SRC_DIR)/chapter-01.md \
 	$(SRC_DIR)/chapter-04.md \
 	$(SRC_DIR)/chapter-05.md \
 	$(SRC_DIR)/chapter-06.md \
-	$(SRC_DIR)/chapter-07.md
+	$(SRC_DIR)/chapter-07.md \
+	$(SRC_DIR)/chapter-08.md
 
 all:
 	# Make options: latex, web, epub, clean
